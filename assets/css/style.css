@@ -1,0 +1,70 @@
+body {
+    background-image: url('../images/white-waves.png');
+}
+
+.port_img {
+    height: 120px;
+    width: 160px
+}
+
+nav {
+    text-align: right;
+    width: 960px;
+    padding: 30px;
+    padding-right: 1000px;
+    padding-left: 20px;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px;
+    margin-bottom: 25px;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #777777;
+    margin-left: 30px;
+    border-right-style: solid;
+    border-right-color: #cccccc;
+    border-right-width: 2px;
+    padding-right: 5px;
+}
+
+div {
+    box-sizing: content-box;
+    width: 960px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: auto;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px;
+    padding-bottom: 25px;
+    font-size: 26px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777; 
+    line-height: 30px; 
+    font-size: 16px;
+}
+
+.bio {
+    float: left;
+    margin-right: 10px
+}
+
+form {
+    color: #777777;
+}
