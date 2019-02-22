@@ -8,23 +8,30 @@
     </head>
 
     <body>
-<!-- Nav bar -->
+
       <header>
-        <nav>
-          <a href="index.html">About</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
-        </nav>
+        <!-- Nav bar -->
+        <div class="navbar">
+          <div class="name"><h2>Mark</h2></div>
+          <div class="navcontent">
+            <ul>
+              <li class="border"><a href="index.html">About</a></li>
+              <li class="border"><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+     
       </header>
      
-      <div>
-        <h2>Contact</h2>
+      <div class="body">
+        <h3>Contact</h3>
 
          <form>
 
           <label for="name">Name</label>
           <br>
-          <input id="name" type="text" value="John Smith">
+          <input id="name" type="text" placeholder="John Smith">
 
          </form>
 
@@ -32,7 +39,7 @@
 
           <label for="email">Email</label>
           <br>
-          <input id="email" type="text" value="example@gmail.com">
+          <input id="email" type="text" placeholder="example@gmail.com">
   
          </form>
 
