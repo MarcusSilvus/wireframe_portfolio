@@ -110,6 +110,8 @@ p {
     color: #777777; 
     line-height: 30px; 
     font-size: 16px;
+    margin-top: -7px;
+    margin-bottom: 25px;
 }
 
 .bio {
@@ -149,6 +151,7 @@ p {
 .copy {
     color: #ffffff;
     font-size: 12px;
+    margin: 20px;
 }
 
 input, textarea {
