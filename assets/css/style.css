@@ -114,6 +114,11 @@ p {
     margin-bottom: 25px;
 }
 
+img {
+    height: 120px;
+    width: 160px;
+}
+
 .bio {
     float: left;
     margin-right: 10px;
@@ -167,11 +172,6 @@ textarea {
 
 #name, #email, #message {
     margin-top: 5px;
-}
-
-img {
-    height: 120px;
-    width: 160px;
 }
 
 .pic {
